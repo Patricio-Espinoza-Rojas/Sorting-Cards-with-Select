@@ -1,0 +1,40 @@
+body {
+    background-color: green;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.card {
+    background: white;
+    margin: auto;
+    height: 340px;
+    width: 250px;
+    border: 1px solid black;
+    border-radius: 15px;
+    position: relative;
+    margin-top: 200px;
+}
+
+.top-suit {
+    font-size: 90px;
+
+}
+
+.bottom-suit {
+    position: absolute;
+    transform: rotate(180deg);
+    right: 1px;
+    bottom: 1px;
+    font-size: 90px;
+}
+
+.seven {
+    font-size: 105px;
+    margin: 100px;
+}
